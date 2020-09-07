@@ -8,6 +8,7 @@
     --GrayishBlue: hsl(229, 6%, 66%);
     --VeryLightGray: hsl(0, 0%, 98%);
 }
+
 /*VERSION PARA ESCRITORIO*/
 @media screen and (min-width:768px){
     .info p{
