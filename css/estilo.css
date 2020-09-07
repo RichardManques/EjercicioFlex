@@ -8,6 +8,7 @@
     --GrayishBlue: hsl(229, 6%, 66%);
     --VeryLightGray: hsl(0, 0%, 98%);
 }
+/*VERSION PARA ESCRITORIO*/
 @media screen and (min-width:768px){
     .info p{
         width: 550px;
@@ -20,6 +21,7 @@
         transform: translateY(50%);
     }
 }   
+
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
@@ -43,7 +45,7 @@ body{
     margin: 10px 15px;
 }
 
-.container{
+.contenido{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -51,6 +53,7 @@ body{
     /*VERIFICA SI ES QUE SE JUNTAR EN UNA LINEA O NO*/
 }
 
+/*INICIO CAJA 1*/
 .caja1{
     border-top: 3px solid var(--Cyan);
     border-radius: 10px;
@@ -71,7 +74,9 @@ body{
     margin-top: 10%;
     float: right;
 }
+/*FIN CAJA 1*/
 
+/*INICIO CAJA 2*/
 .caja2{
     border-top: 3px solid var(--Red);
     border-radius: 10px;
@@ -92,7 +97,9 @@ body{
     margin-top: 10%;
     float: right;
 }
+/*FIN CAJA 2*/
 
+/*INICIO CAJA 3*/
 .caja3{
     border-top: 3px solid var(--Orange);
     border-radius: 10px;
@@ -113,7 +120,9 @@ body{
     margin-top: 10%;
     float: right;
 }
+/*FIN CAJA 3*/
 
+/*INICIO CAJA 4*/
 .caja4{
     border-top: 3px solid var(--Blue);
     border-radius: 10px;
@@ -134,4 +143,4 @@ body{
     margin-top: 10%;
     float: right;
 }
-
+/*FIN CAJA 4*/
